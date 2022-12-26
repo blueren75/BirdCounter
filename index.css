@@ -1,0 +1,49 @@
+body {
+  font-family: Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+.container {
+  margin: 0 auto;
+  background-image: url('./images/hummingBird.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  height: 70vh;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: Black;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: white;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.button-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#increment-btn {
+  background: darkred;
+}
+
+#save-btn {
+  background: darkgreen;
+}
