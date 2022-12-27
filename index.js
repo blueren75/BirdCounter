@@ -12,6 +12,7 @@ function increment() {
 }
 
 function save() {
+  if (count > 0) {
   var x = savedAmount === 0 ? '' : '-';
   msg = `${msg} ${x} ${count}`;
   messageId.innerHTML = msg;
@@ -19,4 +20,6 @@ function save() {
   countEl.innerHTML = 0;
   count = 0;
   totalId.innerHTML = `Total: ${savedAmount}`;
+  }
 }
+  
